@@ -1,0 +1,57 @@
+/*simi antony
+8/12/2021*/
+*{
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url("../img/header-background.png");
+}
+.running{
+    background-image: url("../img/running-man.png");
+    height: 70vh;
+}
+.section2{
+    height:75vh;
+}
+.round{
+    border-radius: 10px;
+}
+.size{
+    width:500px; 
+    height:500px;
+}
+.width{
+    height: 100px;
+    width:50px;
+    filter:grayscale(0.5);
+}
+.vh-90{
+    height:75vh;
+}
+/*media query*/
+@media only screen and (max-width:576px){
+    .section1  {
+background-image: none;
+    }
+    .running{
+        background-image: none;  
+    }
+    
+.size{
+    height:auto;
+    width:auto;
+}
+.hello{
+    margin-top: -297px;
+}
+.section2{
+    height:auto;
+    padding-bottom: 10px;
+    
+    margin-top: -207px;
+}
+.navv{
+    margin-top: -178px;
+}
+}
+}
